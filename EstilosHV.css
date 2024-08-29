@@ -1,0 +1,109 @@
+/* Estilos generales para el cuerpo del documento */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #f8f4f4;
+    background-color: #4e4d4d;
+}
+
+body h1{
+    color: #333;
+}
+body p{
+    font-family: cursive;
+}
+/* Estilos para el encabezado */
+header {
+    background-color: #f18b06;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+header h2 img{
+    width: 300px;
+    height:300px ;
+    border-radius: 80% ;
+}
+header h3 img{
+    border-radius: 50%;
+    width: 100px;
+    height: 80px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+/* Estilos para las secciones */
+.perfil {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+.perfil h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.Perfil h2{
+    color:rgb(243, 138, 18);
+}
+
+.Experiencia h2{
+    color:rgb(243, 138, 18);
+}
+.Educación h2{
+    color:#f38a12;
+}
+.Educación h3{
+    color: #f8f4f4;
+}
+.Educación p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilos para los artículos de experiencia laboral y educación */
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    margin: 0;
+    color: #333;
+}
+
+article p {
+    margin: 5px 0;
+}
+
+/* Estilos para la lista de habilidades */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.Habilidades h2{
+    color:rgb(243, 138, 18);
+}
+
+/* Estilos para el pie de página  */
+footer {
+    text-align: right;
+    padding: 0.5px;
+    background-color:#f38a12;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
