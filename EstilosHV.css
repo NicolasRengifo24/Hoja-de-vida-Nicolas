@@ -1,35 +1,55 @@
 /* Estilos generales para el cuerpo del documento */
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgba(255,255,255,0.5);
+    -webkit-backdrop-filter: blur(46px);
+    backdrop-filter: blur(46px);
+    background-image: url(https://www.labiznagadigital.es/wp-content/uploads/2019/11/contratar-desarrollo-web-profesional.jpg);
+    background-size: contain;
+    color: #fff;
+     /*font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #f8f4f4;
-    background-color: #4e4d4d;
+    background-color: #4e4d4d;*/
 }
 
 body h1{
-    color: #333;
+    color: #f7f7f7;
 }
 body p{
     font-family: cursive;
 }
 /* Estilos para el encabezado */
+header p{
+    color: #fff;
+}
 header {
-    background-color: #f18b06;
+    background: rgba(255,255,255,0.5);
+    -webkit-backdrop-filter: blur(46px);
+    backdrop-filter: blur(34px);
+   
+    background-image: url(https://www.labiznagadigital.es/wp-content/uploads/2019/11/contratar-desarrollo-web-profesional.jpg);
+    background-size: cover;
+    text-align: center;
+   /*background-color: #f18b06;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 20px;*/
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
+    color: #fff;
 }
 header h2 img{
     width: 300px;
     height:300px ;
     border-radius: 80% ;
+    -webkit-box-shadow: 26px 2px 5.5px 2.5px #837575;
+    -moz-box-shadow: 26px 2px 5.5px 2.5px #837575;
+    box-shadow: 26px 2px 5.5px 2.5px rgb(127, 173, 235);
 }
 header h3 img{
     border-radius: 50%;
@@ -50,25 +70,30 @@ header p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 80%;
     max-width: 800px;
+    
 }
 
-.perfil h2 {
-    border-bottom: 2px solid #333;
+.Perfil h2 {
+   
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
-.Perfil h2{
-    color:rgb(243, 138, 18);
+.Perfil h2 {
+    color:#16eb16;
 }
-
+.perfil p{
+    color: #fff;
+}
 .Experiencia h2{
-    color:rgb(243, 138, 18);
+    color:#16eb16;
 }
 .Educación h2{
-    color:#f38a12;
+    color:#16eb16;
 }
+
+
 .Educación h3{
-    color: #f8f4f4;
+    color: #16eb16;
 }
 .Educación p{
     font-family: 'Times New Roman', Times, serif;
@@ -94,16 +119,14 @@ ul {
     padding-left: 20px;
 }
 .Habilidades h2{
-    color:rgb(243, 138, 18);
+    color:#16eb16;
 }
 
 /* Estilos para el pie de página  */
 footer {
     text-align: right;
     padding: 0.5px;
-    background-color:#f38a12;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background: #b3ffab;
+    background: -webkit-linear-gradient(0deg, #b3ffab 0%, #12fff7 100%);
+    background: linear-gradient(0deg, #b3ffab 0%, #12fff7 100%);
 }
